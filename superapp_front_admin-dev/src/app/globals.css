@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+
+
+}
+
+html{
+  overflow: auto !important;
+  scroll-behavior: smooth;
+  padding: 0 !important;
+
+}
+
+body{
+  overflow: initial !important;
+}
+
+body,
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* 
+  Disables pointer events on disabled input elements 
+  to allow clicks to pass through and be captured 
+  by parent elements. This enables capturing click 
+  events on disabled inputs in modern browsers 
+  supporting the pointer-events CSS property.
+*/
+input[disabled] {
+  pointer-events: none;
+}
+
+[type='radio']:checked{
+  background-image: none;
+}
+
+.input-field {
+  width: 100%;
+  background-color: #fff;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.pdf-page-container {
+  margin-bottom: 20px; /* Adjust this value to increase or decrease the space between pages */
+}
+.custom-user-panel {
+  position: absolute;
+  top: -69px;
+  width: 194px;
+  left: -9px;
+  background: #465584;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: -86px;
+  left: -34px;
+  color: white;
+}
+
+.pdf-element-drag-outer {
+  background: white;
+}
+
+.highlight-placeholder {
+  box-shadow: 0px 0px 2px 1px #35a3ff;
+}
+
+.draggable-actions {
+  opacity: 0;
+}
+
+.elem-text:hover .draggable-actions,
+.elem-check:hover .draggable-actions,
+.draggable-actions:hover {
+  opacity: 1; /* Show when hovering over .elem-text */
+}
+
+.pdf-element-drag-outer .move-icon {
+  position: absolute;
+  top: -28px;
+  left: 0;
+  cursor: pointer;
+  color: #4b5563;
+  background: #e5e3e33b;
+  padding: 3px;
+  font-size: 14px;
+  border: 1px solid #a4a4a4;
+}
+
+.pdf-element-drag-outer .move-icon:hover {
+  /* box-shadow: 0px 0px 2px 1px #35a3ff; */
+  cursor: move;
+}
+
+.pdf-element-drag-outer .close-icon {
+  position: absolute;
+  top: -27px;
+  right: 0;
+  cursor: pointer;
+  color: hwb(0 22% 22%);
+  background: #e5e3e33b;
+  padding: 3px;
+  font-size: 14px;
+  border: 1px solid hwb(0 22% 22%);
+}
+
+.pdf-element-drag-outer .close-icon:hover {
+  box-shadow: 0px 0px 2px 1px rgb(196, 50, 50);
+  cursor: pointer;
+}
+
+/* For chckbox */
+.pdf-element-drag-outer.elem-check .move-icon {
+  top: -27px;
+  left: -34px;
+}
+
+/* For chckbox */
+.pdf-element-drag-outer.elem-check .close-icon {
+  top: -26px;
+  right: -27px;
+}
+
+/* For asignee */
+.pdf-element-drag-outer .asignee-icon span {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  background: white;
+}
+.pdf-element-drag-outer .asignee-icon span:hover {
+  text-shadow: 0px 1px 12px #938c8c;
+}
+
+.pdf-element-drag-outer .asignee-icon {
+  position: absolute;
+  bottom: -21px;
+  right: 0;
+  cursor: pointer;
+  color: #393945;
+  width: 119px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #f6f0f0a6; */
+  font-size: 12px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.pdf-element-drag-outer .asignee-icon:hover {
+  color: #35a4ff;
+}
+/* For asignee */
+.pdf-element-drag-outer.elem-check .asignee-icon {
+  bottom: -26px;
+  right: -51px;
+}
+.pdf-module-placeholders.active-element .assignee {
+  color: #35a4ff;
+}
+
+.pdf-module-placeholders input:disabled {
+  border: 1px solid #edd8d8;
+  box-shadow: none;
+  background: #f1f1f1;
+}
+
+.pdf-module-placeholders .assignee {
+  font-size: 10px;
+}
+.pdf-module-placeholders .element-focused .assignee span,
+.pdf-module-placeholders.element-focused .assignee span {
+  color: #054f98;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.pdf-module-placeholders .element-focused input {
+  background: white;
+}
+
+.pdf-module-placeholders .elem {
+  border: 1px solid #e0e0e0;
+}
+
+.notifi-radio:checked ~ label {
+  @apply bg-purple-2000 text-purple-1000 border-purple-1000
+}

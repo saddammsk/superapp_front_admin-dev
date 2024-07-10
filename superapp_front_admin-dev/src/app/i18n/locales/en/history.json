@@ -1,0 +1,18 @@
+{
+    "emmision_name": "Emission Name",
+    "recipients": "Recipients",
+    "status": "Status",
+    "progress": "Progress",
+    "previous":"Previous",
+    "next":"Next",
+    "completed":"Completed",
+    "pending":"Pending",
+    "inprocess":"In process",
+    "submitted": "Submitted",
+    "action": "Action",
+    "non_existent_staff": "Non-existent Staff",
+    "identity_document":"Identity Document",
+    "time_elapsed":"Time elapsed",
+    "staff_id":"Addressee",
+    "workflows": "Workflows"
+}

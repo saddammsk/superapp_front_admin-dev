@@ -1,0 +1,14 @@
+{
+    "start": "Comenzar",
+    "dashboard": "Estadísticas",
+    "profile": "Perfil",
+    "templates": "Plantillas",
+    "workflows": "Flujos de trabajo",
+    "directory": "Directorio",
+    "team": "Equipo",
+    "history": "Historial de emisiones",
+    "messages": "Mensajes",
+    "dynamic_parameters": "Parámetros dinámicos",
+    "roles_permissions": "Roles y permisos",
+    "settings": "Ajustes"
+}

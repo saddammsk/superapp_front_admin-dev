@@ -1,0 +1,8 @@
+{
+    "signed_contracts": "Contratos Firmados",
+    "contract_status": "Estado de Contratos",
+    "contracts_signed_user": "Contratos Firmados por el Usuario",
+    "total_credits": "Total de Créditos",
+    "user_contracts": "contratos del Usuarios",  
+    "total_user_credits": "Total de Créditos del Usuario"
+}

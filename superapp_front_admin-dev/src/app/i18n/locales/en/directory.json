@@ -1,0 +1,12 @@
+{
+    "create_staff": "Create Staff",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "first_name": "Name",
+    "last_name": "Last Name",
+    "company": "Company",
+    "internal_users": "Internal Users",
+    "external_users": "External Users",
+    "action": "Action"
+}

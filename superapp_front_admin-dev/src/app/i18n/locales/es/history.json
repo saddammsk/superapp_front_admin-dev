@@ -1,0 +1,21 @@
+{
+    "emmision_name": "Nombre de emisión",
+    "recipients": "Destinatarios",
+    "status": "Estado",
+    "workflows": "Flujos",
+    "progress": "Progreso",
+    "action": "Acción",
+    "non_existent_staff": "Personal no existente",
+    "previous":"Anterior",
+    "next":"Siguiente",
+    "completed":"Completado",
+    "pending":"Pendiente",
+    "inprocess":"En proceso",
+    "rejected": "Rechazado",
+    "tobecorrected": "Por Corregir",
+    "corrected": "Corregido",
+    "submitted": "Enviado",
+    "identity_document":"Documento de Identidad",
+    "time_elapsed":"Tiempo transcurrido",
+    "staff_id":"Destinatarios"
+}

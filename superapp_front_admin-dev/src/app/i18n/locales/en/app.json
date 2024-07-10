@@ -1,0 +1,17 @@
+{
+    "identity_document": "Document ID",
+    "workflows": "Workflows",
+    "history": "History",
+    "team": "Team",
+    "directory": "Directory",
+    "templates": "Templates",
+    "cancel": "Cancel",
+    "create": "Create",
+    "edit": "Edit",
+    "update": "Update",
+    "delete": "Delete",
+    "prev": "Prev",
+    "next": "Next",
+    "add": "Add",
+    "save": "Save"
+}

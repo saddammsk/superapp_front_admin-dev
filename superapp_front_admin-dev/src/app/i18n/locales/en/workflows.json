@@ -1,0 +1,22 @@
+{
+    "home": "Home",
+    "workflow": "Workflow",
+    "my_workflows": "My workflows",
+    "blocks": "Blocks",
+    "all": "All",
+    "by_categories": "By Categories",
+    "static_content_blocks": "Static Content Blocks",
+    "document_blocks": "Document Blocks",
+    "form_blocks": "Form Blocks",
+    "attachments_blocks": "Attachments Blocks",
+    "notifications_blocks": "Notifications Blocks",
+    "responsible": "Responsible",
+    "recipients": "Recipients",
+    "workflow_responsible": "Workflow Responsible",
+    "workflow_recipients": "Workflow Recipients",
+    "internal_users": "Internal Users",
+    "external_users": "External Users",
+    "submit_instructions": "Submit instructions",
+    "add_person_in_charge": "Add Person in Charge",
+    "select_assignee": "Select an assignee"
+}

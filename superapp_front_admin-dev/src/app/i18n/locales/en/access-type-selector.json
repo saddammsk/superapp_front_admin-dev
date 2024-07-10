@@ -1,0 +1,8 @@
+{
+    "you_logged_in": "You are logged in",
+    "successfully": "Successfully", 
+    "select_account_type": "Select Account Type",
+    "access_account_type": "Sign in with your service provider or subscriber account",
+    "access_supplier": "Log in with your supplier account",
+    "access_subscriber": "Log in with your subscriber account"
+}

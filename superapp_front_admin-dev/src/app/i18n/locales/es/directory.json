@@ -1,0 +1,17 @@
+{
+    "create_staff": "Crear Personal",
+    "view_metadata": "Atributos",
+    "metadata": "Atributos",
+    "name": "Nombre",
+    "email": "Email",
+    "phone": "Teléfono",
+    "first_name": "Nombre",
+    "last_name": "Apellido",
+    "company": "Empresa",
+    "internal_users": "Usuarios Internos",
+    "external_users": "Usuarios Externos",
+    "action": "Acción",
+    "previous":"Anterior",
+    "next":"Siguiente",
+    "type_documento": "Tipo de Documento"
+}

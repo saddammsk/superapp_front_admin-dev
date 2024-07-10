@@ -1,0 +1,20 @@
+{
+    "identity_document": "Documento de Identidad",
+    "metadata": "Atributos",
+    "workflows": "Flujos de trabajo",
+    "history": "Historial",
+    "team": "Equipo",
+    "directory": "Directorio",
+    "templates": "Plantillas",
+    "cancel": "Cancelar",
+    "create": "Crear",
+    "edit": "Editar",
+    "update": "Actualizar",
+    "delete": "Eliminar",
+    "emission_name": "Nombre de emisión",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "add": "Añadir",
+    "save": "Guardar",
+    "import": "Importar"
+}
